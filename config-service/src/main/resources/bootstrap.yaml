@@ -8,7 +8,7 @@ spring:
         git: 
           uri: https://github.com/jozuenikolas/microservices-architecture-spring-boot.git
           searchPaths: config-data
-          default-label: 02-config
+          #default-label: 02-config
           
   security:
     user:
