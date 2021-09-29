@@ -3,11 +3,11 @@ server:
 
 eureka:
   instance:
-    #hostname: localhost
+    hostname: localhost
     preferIpAddress: true
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://localhost:${server.port}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      
